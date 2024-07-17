@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+   <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+   <meta name="x-apple-disable-message-reformatting">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+	<title>Buffer Responsive HTML Email Project</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+   <!--[if mso]>
+      <noscript>
+         <xml>
+            <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+         </xml>
+      </noscript>
+   <![endif]-->
+   <style type="text/css">
+      table {
+			border-spacing: 0;
+         border-collapse: collapse;
+		}
+      td {
+         padding: 0;
+      }
+      p {
+         font-size: 16px;
+      }
+      img {
+         border: 0;
+      }
+      a {
+         text-decoration: none;
+         color: #e8fbfa;
+         font-size: 16px;
+      }
+      .content {
+         line-height: 20px;
+         font-size: 16px;
+      }
+
+      .bluelink {
+         text-decoration: none;
+         color: #1e5d7b !important;
+      }
+
+      .two-columns-header {
+         text-align: center;
+         font-size: 0;
+      }
+      .two-columns-header .column {
+         width: 100%;
+         max-width: 300px;
+         display: inline-block;
+         vertical-align: top;
+      }
+      .logo-column {
+         width: 100%;
+         max-width: 300px;
+         display: inline-block;
+         vertical-align: top;
+      }
+
+      /*PROGRESS*/
+      .progress{
+         display: block;
+         margin-bottom: 20px;
+      }
+      .progress h2 {
+         font-size: 13px;
+         font-weight: 600;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         margin-bottom: 10px;
+      }
+      .progressbar {
+         padding: 0px;
+         background: rgba(0,0,0,.1);
+      }
+
+      /* Adjust with JavaScript */
+      .progressbar > div {
+         background: #52c8ff;
+         height: 6px;
+      }
+
+      span.Object {
+         color: inherit !important;
+      }
+      span.Object-hover {
+         color: inherit !important;
+         text-decoration:none !important;
+      }
+
+      u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+		u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+
+      .ExternalClass {
+         width: 100%;
+      }
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+         line-height: 100%;
+      }
+
+      a[x-apple-data-detectors=true]{
+         color: inherit !important;
+         text-decoration: inherit !important;
+      }
+
+      /* BUFFER ICONS HEADER */
+      .two-columns-a {
+         font-size: 0 !important;
+      }
+      
+      .two-columns-a .column-buffer {
+         width: 100% !important;
+         max-width: 300px !important;
+         display: inline-block !important;
+         vertical-align: top !important;
+      }
+      
+      @media screen and (max-width: 599.98px) {
+         .logo-column {
+            display: none;
+         }
+         .buffer-icon-1 {
+            text-align: center !important;
+            margin: 0 !important;
+         }
+         .buffer-icon-2 {
+            display: none;
+         }
+         .column-wrapper .padding {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+         }
+         .column-wrapper .column,
+         .column-wrapper .column img {
+            width: 100% !important;
+            max-width: 100% !important;
+         }
+         .column-wrapper {
+            padding: 0 75px !important;
+         }
+         .column-one-third img.one-third-col-img {
+            max-width: 60% !important;
+            padding-top: 15px !important;
+            padding-left: 80px !important;
+            background-color: transparent !important;
+         }
+         .column-two-third .content {
+            text-align: center !important;
+         }
+         .column-two-third {
+            padding-bottom: 30px !important;
+            background-color: transparent !important;
+         }
+         
+         /* TWO CHECKS M-Q */
+         /*.two-checks-column-wrapper {
+            padding: 0 75px !important;
+         }
+         .two-checks-column-wrapper .column,
+         .two-checks-column-wrapper .column img {
+            width: 100% !important;
+            max-width: 100% !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-2-1,
+         .two-checks-column-wrapper .three-column-2checks-1-1 {
+            width: 150px !important;
+            max-width: 150px !important;
+         }
+         .three-column-2checks-2-1 .content img {
+            max-width: 30px !important;
+         }*/
+         
+         .two-checks-column-wrapper .three-column-2checks-1-2 {
+            width: 400px !important;
+            max-width: 100% !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-2-2 {
+            width: 400px !important;
+            max-width: 100% !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-1-3 img {
+            /*display: none !important;*/
+         }
+         .two-checks-column-wrapper .three-column-2checks-2-3 img {
+            /*display: none !important;*/
+         }
+         .three-column-2checks-2-3 .content img {
+            max-width: 250px !important;
+            text-align: center;
+            padding-left: 90px !important;
+            padding-top: 0 !important;
+         }
+         .three-column-2checks-1-3 .content img {
+            max-width: 250px !important;
+            text-align: center;
+            padding-left: 90px !important;
+            padding-top: 0 !important;
+         }
+         
+      
+         
+         
+
+      }
+      @media screen and (max-width: 499.98px) {
+         .column-wrapper {
+            padding: 0 45px !important;
+         }
+
+         .column-one-third img.one-third-col-img {
+            padding-left: 60px !important;
+         }
+
+         /* TWO CHECKS M-Q */
+         .two-checks-column-wrapper {
+            font-size: 0 !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-1-2 {
+            width: 300px !important;
+            max-width: 100% !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-2-2 {
+            width: 300px !important;
+            max-width: 100% !important;
+         }
+         
+      }
+      @media screen and (max-width: 399.98px) {
+         .column-wrapper {
+            padding: 0 20px !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-1-2 {
+            width: 400px !important;
+            max-width: 100% !important;
+         }
+         .two-checks-column-wrapper .three-column-2checks-2-2 {
+            width: 400px !important;
+            max-width: 100% !important;
+         }
+      }
+
+      :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, table, .darkmode-bg {
+            background: #2d2d2d !important;
+            color: #ffffff !important;
+         }
+         [data-ogsc] body, table, .darkmode-bg {
+            background: #2d2d2d !important;
+            color: #ffffff !important;
+         }
+         .darkmode-transparent {
+            background-color: transparent !important;
+         }
+         [data-ogsc] .darkmode-transparent {
+            background-color: transparent !important;
+         }
+      }
+
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+   </style>
+
+	<!--[if mso]>
+		<style type="text/css">
+			body {background-color: #dde0e1 !important;}
+         body, table, td, p, a {font-family: 'Lato', Arial, Helvetica, sans-serif !important;}
+         table {border-spacing: 0 !important;border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body class="body" xml:lang="en" style="margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+   <div style="width: 100%; table-layout:fixed; background-color: #dde0e1; color:#3d3d3d; font-family: 'Lato', Arial, Helvetica, sans-serif; font-size: 16px; margin: 0 auto 40px;">
+      <div style="max-width: 600px; background-color: #fafdfe; color:#3d3d3d; font-family: 'Lato', Arial, Helvetica, sans-serif; font-size: 16px; box-shadow: 0 0 10px rgba(0, 0, 0, .2);margin: 0 auto;">
+
+         <!-- Preheader (remove comment) -->
+         <div style="font-size: 0px; color: #fafdfe; mso-line-height-rule: exactly; line-height: 0px; display: none; max-width: 0px; max-height: 0px; opacity: 0; overflow: hidden; mso-hide:all;">
+            This is a test HTML Email built by Judah Michael for Buffer. It's responsive and darmode friendly.
+            <!-- Add Preheader Text Here (85-100 characters in length) -->
+            &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;
+         </div>
+         <!-- End Preheader (remove comment) -->
+      
+         <!--[if mso]>
+            <table width="600" align="center" style="border-spacing: 0; border-collapse:collapse; color: #3d3d3d;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+         <table align="center" style="border-spacing:0; border-collapse: collapse; color:#3d3d3d; font-family: 'Lato', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; margin: 0 auto; padding:0; width: 100%; max-width: 600px;" role="presentation">
+
+
+
+<!-- START TOP BORDER -->
+            <!--[if mso]>
+               <tr>
+                  <td height="1px" style="background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF;">
+                     <div style="font-size: 0; mso-line-height-rule: exactly; line-height: 0; display: none; mso-hide: all;">
+                        &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+                     </div>
+                  </td>
+               </tr>
+            <![endif]-->
+            <tr>
+               <td height="8" style="background-color: #2E4DFF;"></td>
+            </tr>
+<!-- END TOP BORDER -->
+
+
+<!-- START BUFFER ICONS -->
+            <tr>
+               <td style="padding: 0;">
+                  
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                    <tr>
+                        <td class="darkmode-bg buffer-icon-1" style="background-color: #5C8BFF; text-align: left; padding: 10px 0 10px 30px;">
+                           <a href="https://buffer.com" target="_blank"><img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/bfc9a35f-ae91-cb14-0253-ee1ba821dd48.png" alt="Buffer Logo" width="160" style="border: 0;"></a>
+                           
+                        </td>
+                        <td class="darkmode-bg buffer-icon-2" style="background-color: #5C8BFF; text-align: right; padding: 10px 30px 10px 0;">
+                           
+                           <a href="https://buffer.com" target="_blank"><img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/5548b603-c90e-db22-13a2-9925265e32ae.png" alt="Logo" width="45" style="border: 0;"></a>
+                           
+                        </td>
+                     </tr>
+                  </table>
+               
+               </td>
+            </tr>
+<!-- END BUFFER ICONS -->
+
+
+<!-- START BOTTOM BORDER -->
+            <!--[if mso]>
+               <tr>
+                  <td height="1px" style="background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF;">
+                     <div style="font-size: 0; mso-line-height-rule: exactly; line-height: 0; display: none; mso-hide: all;">
+                        &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+                     </div>
+                  </td>
+               </tr>
+            <![endif]-->
+            <tr>
+               <td height="1.4" style="background-color: #2E4DFF;"></td>
+            </tr>
+<!-- END BOTTOM BORDER -->
+
+
+<!-- START HEADER IMAGE -->
+            <tr>
+               <td style="padding: 0;">
+                  
+                  <div class="carousel-static">
+                     <a href="https://buffer.com/2" target="_blank">
+                        <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/43aaf69c-0acd-8822-77e2-9eb810004ba1.png" alt="Image 1" width="600" style="max-width: 100%; display: block;">
+                     </a>
+                  </div>
+                        
+               </td>
+            </tr>
+<!-- END HEADER IMAGE -->
+
+
+<!-- START TWO COLUMNS 1 -->
+            <tr>
+               <td style="padding: 35px 0 15px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center;">
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+
+                                             <!--[if mso]>
+                                                <v:roundrect stroke="false" style="width:195pt; height:109.84pt;" arcsize="4%">
+                                                   <v:fill sizes="195pt,109.84pt" type="frame" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/e3718a86-6eac-52fd-4ab1-461fcea7eefb.gif" href="https://buffer.com/2">
+                                                   <w:anchorlock/>
+                                                </v:roundrect>
+                                             <![endif]-->
+
+                                             <a href="https://buffer.com/2" target="_blank" style="mso-hide: all;">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/e3718a86-6eac-52fd-4ab1-461fcea7eefb.gif" alt="Board View" width="260" style="max-width: 260px; border-radius: 8px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                       
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <div class="darkmode-transparent-gmail-blend-screen">
+                                                <div class="darkmode-transparent-gmail-blend-difference">
+                                                   <h2 style="font-size: 20px; line-height: 27px;letter-spacing: 0.2px; font-weight: bold; margin: 0;">Board view</h2>
+                                                   <br>
+                                                   <h3 style="font-size: 18px; line-height: 27px; letter-spacing: 0.2px; font-weight: 300; margin: 0;">Keep track of your social media ideas, visualize your progress, and drag and drop your way from “To Do" to “Done."</h3>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       
+                                       <tr>
+                                          <td align="left" style="padding-top: 15px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left">
+
+                                                      <!--[if mso]>
+                                                         <v:roundrect
+                                                            xmlns_v="urn:schemas-microsoft-com:vml"
+                                                            xmlns_w="urn:schemas-microsoft-com:office:word" href="https://buffer.com/create" style="height: 39pt; width: 175.69pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#2E4DFF" fillcolor="#2E4DFF">
+                                                            <w:anchorlock/>
+                                                            <center style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 300;">Try Board View Now!</center>
+                                                         </v:roundrect>
+                                                      <![endif]-->
+
+                                                      <a href="https://buffer.com/create" target="_blank" style="font-size: 19px; font-weight: 300; text-decoration: none; color: #ffffff; background-color: #2E4DFF; padding: 15px 30px; border: 1px solid #2E4DFF; border-radius: 30px; display: inline-block; mso-hide: all;">Try Board View Now!</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO COLUMNS 1 -->
+
+<!-- START TWO COLUMNS 2 -->
+            <tr>
+               <td style="padding: 15px 0 15px;">
+                  <table width="100%" style="border-spacing: 0; background-color: #F6F8F7;" role="presentation">
+                     <tr>
+                        <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center;">
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <div class="darkmode-transparent-gmail-blend-screen">
+                                                <div class="darkmode-transparent-gmail-blend-difference">
+                                                   <h2 style="font-size: 20px; line-height: 27px;letter-spacing: 0.2px; font-weight: bold; margin: 0;">Notification publishing for Instagram</h2>
+                                                   <br>
+                                                   <h3 style="font-size: 18px; line-height: 27px; letter-spacing: 0.2px; font-weight: 300; margin: 0;">Buffer can either auto-post or you can choose to get notifications to finish the post yourself.</h3>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+
+                                       <tr>
+                                          <td align="left" style="padding-top: 15px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left">
+
+                                                      <!--[if mso]>
+                                                         <v:roundrect
+                                                            xmlns_v="urn:schemas-microsoft-com:vml"
+                                                            xmlns_w="urn:schemas-microsoft-com:office:word" href="https://buffer.com/create" style="height: 39pt; width: 134.88pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#2E4DFF" fillcolor="#2E4DFF">
+                                                            <w:anchorlock/>
+                                                            <center style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 300;">Post Your Way</center>
+                                                         </v:roundrect>
+                                                      <![endif]-->
+
+                                                      <a href="https://buffer.com/create" target="_blank" style="font-size: 19px; font-weight: 300; text-decoration: none; color: #ffffff; background-color: #2E4DFF; padding: 15px 30px; border: 1px solid #2E4DFF; border-radius: 30px; display: inline-block; mso-hide: all;">Post Your Way</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+
+                                             <!--[if mso]>
+                                                <v:roundrect stroke="false" style="width:195pt; height:118.12pt;" arcsize="4%">
+                                                   <v:fill sizes="195pt,118.12pt" type="frame" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/b0abff43-cb60-887b-8374-fdb33dd41c4e.gif" href="https://buffer.com/3">
+                                                   <w:anchorlock/>
+                                                </v:roundrect>
+                                             <![endif]-->
+
+                                             <a href="https://buffer.com/3" target="_blank" style="mso-hide: all;">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/b0abff43-cb60-887b-8374-fdb33dd41c4e.gif" alt="Board View" width="260" style="max-width: 260px; border-radius: 8px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                       
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO COLUMNS 2 -->
+
+
+<!-- START TWO COLUMNS 3 -->
+            <tr>
+               <td style="padding: 15px 0 35px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center;">
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+
+                                             <!--[if mso]>
+                                                <v:roundrect stroke="false" style="width:195pt; height:110.13pt;" arcsize="4%">
+                                                   <v:fill sizes="195pt,110.13pt" type="frame" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/1b4aeef9-9b8f-2515-9c6b-223307e1199a.gif" href="https://buffer.com/2">
+                                                   <w:anchorlock/>
+                                                </v:roundrect>
+                                             <![endif]-->
+
+                                             <a href="https://buffer.com/2" target="_blank" style="mso-hide: all;">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/1b4aeef9-9b8f-2515-9c6b-223307e1199a.gif" alt="Facebook Dashboard" width="260" style="max-width: 260px; border-radius: 8px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <div class="darkmode-transparent-gmail-blend-screen">
+                                                <div class="darkmode-transparent-gmail-blend-difference">
+                                                   <h2 style="font-size: 20px; line-height: 27px;letter-spacing: 0.2px; font-weight: bold; margin: 0;">Facebook Stories scheduling</h2>
+                                                   <br>
+                                                   <h3 style="font-size: 18px; line-height: 27px; letter-spacing: 0.2px; font-weight: 300; margin: 0;">More than 500 million people watch Facebook Stories every day.</h3>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       
+                                       <tr>
+                                          <td align="left" style="padding-top: 15px;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+                                                   <td align="left">
+
+                                                      <!--[if mso]>
+                                                         <v:roundrect
+                                                            xmlns_v="urn:schemas-microsoft-com:vml"
+                                                            xmlns_w="urn:schemas-microsoft-com:office:word" href="https://buffer.com/create" style="height: 39pt; width: 167pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#2E4DFF" fillcolor="#2E4DFF">
+                                                            <w:anchorlock/>
+                                                            <center style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 300;">Stories on Autopilot</center>
+                                                         </v:roundrect>
+                                                      <![endif]-->
+
+                                                      <a href="https://buffer.com/create" target="_blank" style="font-size: 19px; font-weight: 300; text-decoration: none; color: #ffffff; background-color: #2E4DFF; padding: 15px 30px; border: 1px solid #2E4DFF; border-radius: 30px; display: inline-block; mso-hide: all;">Stories on Autopilot</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO COLUMNS 3 -->
+
+
+<!-- START GIF REVIEWS 1-->
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                  
+                     <!--[if mso]>
+                        <tr>
+                           <td height="1px" style="background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF;">
+                              <div style="font-size: 0; mso-line-height-rule: exactly; line-height: 0; display: none; mso-hide: all;">
+                                 &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+                              </div>
+                           </td>
+                        </tr>
+                     <![endif]-->
+                     <tr>
+                        <td style="padding: 1.4px; background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF; mso-hide: all;"></td>
+                     </tr>
+                     <tr>
+                        <td style="background-color: #5C8BFF; padding: 12px;">
+                           <div class="darkmode-transparent-gmail-blend-screen">
+                              <div class="darkmode-transparent-gmail-blend-difference">
+                                 <p class="lesson-title" style="text-align: center; color: #ffffff; font-size: 22px; line-height: 27px; letter-spacing: 0.2px; font-weight: bold; margin: 0;">Stay ahead of the game!</p>
+                              </div>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="banner" background="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/1e72c3ca-a707-11c9-0065-812a9c7c9cbe.gif" width="600" height="118" style="background-position: center top; background-repeat: no-repeat; background-color: #5C8BFF;">
+         
+                           <!--[if mso]>
+                              <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border:0;display:inline-block; width: 450pt; height: 88.5pt;" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/1e72c3ca-a707-11c9-0065-812a9c7c9cbe.gif" alt="Banner Gif" />
+                              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border:0;display:inline-block; width: 450pt; height: 88.5pt; position: absolute;" >
+                              <v:fill opacity="0%" color="#000000" />
+                              <v:textbox inset="0,0,0,0">
+                           <![endif]-->
+                           
+                           <!--[if mso]>
+                              </v:textbox>
+                              </v:rect>
+                           <![endif]-->
+         
+                        </td>
+                     </tr>
+                     
+                     <tr>
+                        <td style="padding: 1.4px; background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF;"></td>
+                     </tr>
+                  
+                  </table>
+               </td>
+            </tr>
+<!-- END GIF REVIEWS 1-->
+
+
+<!-- START THREE COLUMNS 1-->
+            <tr>
+               <td style="padding: 25px 0 5px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="two-checks-column-wrapper" style="padding: 0; font-size: 0; text-align: left;">
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="100" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column three-column-2checks-1-1" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 100px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px 10px 5px 45px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="https://buffer.com/2" target="_blank">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/e66638df-ce81-a19b-9d48-b883ac00d660.png" alt="Check Icon" width="40" style="max-width: 40px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column three-column-2checks-1-2" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 10px 10px 5px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <div class="darkmode-transparent-gmail-blend-screen">
+                                                <div class="darkmode-transparent-gmail-blend-difference">
+                                                   <h3 style="font-size: 17px; line-height: 27px; letter-spacing: 0.2px; font-weight: 300; margin: 0;">LinkedIn first comment scheduling (Engage your network with ease).</h3>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column three-column-2checks-1-3" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 5px 0 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+
+                                             <!--[if mso]>
+                                                <v:roundrect stroke="false" style="width:195pt; height:65.25pt;" arcsize="7%">
+                                                   <v:fill sizes="195pt,65.25pt" type="frame" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/ffe639ea-f86f-76fd-c30e-30c5065e7e5e.png" href="https://buffer.com/7">
+                                                   <w:anchorlock/>
+                                                </v:roundrect>
+                                             <![endif]-->
+
+                                             <a href="https://buffer.com/7" target="_blank" style="mso-hide: all;">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/ffe639ea-f86f-76fd-c30e-30c5065e7e5e.png" alt="Board View" width="260" style="max-width: 260px; border-radius: 8px; border: 0; mso-hide: all;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END THREE COLUMNS 1-->
+
+
+<!-- START THREE COLUMNS 2-->
+            <tr>
+               <td style="padding: 5px 0 15px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="two-checks-column-wrapper" style="padding: 0; font-size: 0; text-align: left;">
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="100" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column three-column-2checks-2-1" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 100px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px 10px 20px 45px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="https://buffer.com/2" target="_blank">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/e66638df-ce81-a19b-9d48-b883ac00d660.png" alt="Check icon" width="40" style="max-width: 40px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column three-column-2checks-2-2" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 10px 10px 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <div class="darkmode-transparent-gmail-blend-screen">
+                                                <div class="darkmode-transparent-gmail-blend-difference">
+                                                   <h3 style="font-size: 17px; line-height: 27px; letter-spacing: 0.2px; font-weight: 300; margin: 0;">Schedule posts for Pinterest personal profiles (Expand your reach and connect with new audiences).</h3>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column three-column-2checks-2-3" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 5px 0 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+
+                                             <!--[if mso]>
+                                                <v:roundrect stroke="false" style="width:195pt; height:65.25pt;" arcsize="7%">
+                                                   <v:fill sizes="195pt,65.25pt" type="frame" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/b1a2b448-bd27-543b-fc0b-e233546bcd59.png" href="https://buffer.com/5">
+                                                   <w:anchorlock/>
+                                                </v:roundrect>
+                                             <![endif]-->
+
+                                             <a href="https://buffer.com/5" target="_blank" style="mso-hide: all;">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/b1a2b448-bd27-543b-fc0b-e233546bcd59.png" alt="Pinterest" width="260" style="max-width: 260px; border-radius: 8px; border: 0; mso-hide: all;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END THREE COLUMNS 2-->
+
+
+<!-- VML BUTTON WITH OUTLOOK BORDER RADIUS -->
+            <tr>
+               <td style="padding: 1px 0 10px;">
+                  <table width="100%" style="border-spacing:0;" role="presentation">
+                     <tr>
+                        <td align="center" style="padding: 20px;">
+                           <table align="center" role="presentation" style="border-spacing: 0;">
+                           
+                              <tr>
+                                 <td align="center">
+
+                                    <!--[if mso]>
+                                       <v:roundrect
+                                          xmlns_v="urn:schemas-microsoft-com:vml"
+                                          xmlns_w="urn:schemas-microsoft-com:office:word" href="https://buffer.com/create" style="height: 41.25pt; width: 125pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#2E4DFF" fillcolor="#2E4DFF">
+                                          <w:anchorlock/>
+                                          <center style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 300; letter-spacing: 1px;">Learn More</center>
+                                       </v:roundrect>
+                                    <![endif]-->
+
+                                    <a href="https://buffer.com/create" class="button" target="_blank" style="font-size: 19px; font-weight: 300; text-decoration: none; color: #ffffff; background-color: #2E4DFF; padding: 15px 30px; border: 1px solid #2E4DFF; border-radius: 30px;display: inline-block; letter-spacing:1px; mso-hide: all;">
+                                       Learn More
+                                    </a>
+
+                                 </td>
+                              </tr>
+                           
+                           </table>
+                        </td>
+                     </tr>
+                  
+                  </table>
+               </td>
+            </tr>
+<!-- END VML BUTTON WITH OUTLOOK BORDER RADIUS -->
+
+
+<!-- START TWO THIRDS COLUMNS -->
+            <tr>
+               <td style="padding: 10px 0 10px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <!--[if mso]>
+                        <tr>
+                           <td height="1px" style="background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF;">
+                              <div style="font-size: 0; mso-line-height-rule: exactly; line-height: 0; display: none; mso-hide: all;">
+                                 &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+                              </div>
+                           </td>
+                        </tr>
+                     <![endif]-->
+                     <tr>
+                        <td style="padding: 1.4px; background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF; mso-hide: all;"></td>
+                     </tr>
+                     <tr>
+                        <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center; background: linear-gradient(#5C8BFF, #5C8BFF); background-color: #5C8BFF;">
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="200" valign="middle" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-third" style="border-spacing: 0; vertical-align: middle; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px; background: linear-gradient(#5C8BFF, #5C8BFF); background-color: #5C8BFF;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                       <tr>
+                                          <td style="background: linear-gradient(#5C8BFF, #5C8BFF); background-color: #5C8BFF;">
+                                             <a href="https://buffer.com/#" target="_blank">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/672d14e5-13a2-f38a-2909-5e272a98e11a.png" alt="What others are saying" class="one-third-col-img" width="160" style="max-width: 160px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td><td width="400" valign="middle" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-two-third" style="border-spacing: 0; vertical-align: middle; width: 100%; max-width: 400px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 0px; background: linear-gradient(#5C8BFF, #5C8BFF); background-color: #5C8BFF;">
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td style="vertical-align: middle; padding: 0 30px; background: linear-gradient(#5C8BFF, #5C8BFF); background-color: #5C8BFF;">
+                                             <div class="darkmode-transparent-gmail-blend-screen">
+                                                <div class="darkmode-transparent-gmail-blend-difference">
+                                                   <h3 style="font-size: 20px; line-height: 27px; color: #ffffff; letter-spacing: 0.2px; font-weight: 300; margin: 0;">On social, we need to be fast, efficient, and intentional. Buffer allows us to be exactly that.</h3>
+                                                   <h2 style="font-size: 20px; line-height: 27px; color: #ffffff; letter-spacing: 0.2px; font-weight: bold;">-Liz Gillis, Digital Marketer</h2>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                        </td>
+                     </tr>
+                     <tr>
+                        <td style="padding: 1.4px; background: linear-gradient(#2E4DFF, #2E4DFF); background-color: #2E4DFF;"></td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO THIRDS COLUMNS -->
+
+
+<!-- START TWO JAVASCRIPT COLUMNS -->
+            <tr>
+               <td style="padding: 35px 0 30px;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center;">
+
+                           <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%;max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+
+                                             <!--[if mso]>
+                                                <v:roundrect stroke="false" style="width:195pt; height:337.5pt;" arcsize="4%">
+                                                   <v:fill sizes="195pt,337.5pt" type="frame" src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/b4c8137e-4f59-bd3e-aa13-2e736519efd7.gif" href="https://buffer.com/#">
+                                                   <w:anchorlock/>
+                                                </v:roundrect>
+                                             <![endif]-->
+
+                                             <a href="https://buffer.com/#" target="_blank" style="mso-hide: all;">
+                                                <img src="https://mcusercontent.com/cfe22a628a7e147c5216415e9/images/b4c8137e-4f59-bd3e-aa13-2e736519efd7.gif" alt="Upcoming Features" width="260" style="max-width: 260px; border-radius: 8px; border: 0;">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                           </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column column-one-half" style="border-spacing: 0; vertical-align: top; width: 100%;max-width: 300px; display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+
+                                    <table class="progress content" style="border-spacing: 0; text-align: left;" role="presentation">
+                                       <tr>
+                                          <td style="padding: 20px 0 10px 0;">
+                                             <h2 style="font-size: 25px; font-weight: bold; margin: 0;">Coming up:</h2>
+                                          </td>
+                                       </tr>
+
+                                       <tr>
+                                          <td style="padding: 20px 0 10px;">
+                                             <h2 style="font-size: 12px; font-weight: bold; margin: 0;">Bluesky scheduling - 75%</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td bgcolor="#f83f83" width="195px" style="width:75%; background-color:#5c8bff; float:left; height:6px;"></td>
+                                          <td bgcolor="#cccccc" width="65px" style="width:25%; background-color:#cccccc; float:left; height:6px;"></td>
+                                       </tr>
+                                    
+
+                                       <tr>
+                                          <td style="padding: 20px 0 10px;">
+                                             <h2 style="font-size: 12px; font-weight: bold; margin: 0;">Threads scheduling - 80%</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td bgcolor="#f83f83" width="208px" style="width:80%; background-color:#5c8bff; float:left; height:6px;"></td>
+                                          <td bgcolor="#cccccc" width="52px" style="width:20%; background-color:#cccccc; float:left; height:6px;"></td>
+                                       </tr>
+                                    
+
+                                       <tr>
+                                          <td style="padding: 20px 0 10px;">
+                                             <h2 style="font-size: 12px; font-weight: bold; margin: 0;">Linkedin personal profile analytics - 95%</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td bgcolor="#f83f83" style="width:95%; background-color:#5c8bff; float:left; height:6px;"></td>
+                                          <td bgcolor="#cccccc" style="width:5%; background-color:#cccccc; float:left; height:6px;"></td>
+                                       </tr>
+                                    
+
+                                       <tr>
+                                          <td style="padding: 20px 0 10px;">
+                                             <h2 style="font-size: 12px; font-weight: bold; margin: 0;">Duplicate a post - 70%</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td bgcolor="#f83f83" style="width:70%; background-color:#5c8bff; float:left; height:6px;"></td>
+                                          <td bgcolor="#cccccc" style="width:30%; background-color:#cccccc; float:left; height:6px;"></td>
+                                       </tr>
+                                    
+
+                                       <tr>
+                                          <td style="padding: 20px 0 10px;">
+                                             <h2 style="font-size: 12px; font-weight: bold; margin: 0;">Aggregated post analytics - 85%</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td bgcolor="#f83f83" style="width:85%; background-color:#5c8bff; float:left; height:6px;"></td>
+                                          <td bgcolor="#cccccc" style="width:15%; background-color:#cccccc; float:left; height:6px;"></td>
+                                       </tr>
+                                    
+
+                                    
+                                       
+                                       <tr>
+                                          <td align="left" style="padding: 30px 0 0 0;">
+                                             <table align="left" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+
+                                                   <td align="left">
+
+                                                      <!--[if mso]>
+                                                         <v:roundrect
+                                                            xmlns_v="urn:schemas-microsoft-com:vml"
+                                                            xmlns_w="urn:schemas-microsoft-com:office:word" href="https://buffer.com/#" style="height: 39pt; width: 107.96pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#2E4DFF" fillcolor="#2E4DFF">
+                                                            <w:anchorlock/>
+                                                            <center style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 300;">Notify Me</center>
+                                                         </v:roundrect>
+                                                      <![endif]-->
+   
+                                                      <a href="https://buffer.com/#" target="_blank" style="font-size: 19px; font-weight: 300; text-decoration: none; color: #ffffff; background-color: #2E4DFF; padding: 15px 30px; border: 1px solid #2E4DFF; border-radius: 30px; display: inline-block; mso-hide: all;">
+                                                         Notify Me
+                                                      </a>
+                                                   </td>
+
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO JAVASCRIPT COLUMNS -->
+
+
+<!-- START TWO THIRDS COLUMNS -->
+
+<!-- END TWO THIRDS COLUMNS -->
+
+
+<!-- START THREE COLUMNS -->
+
+<!-- END THREE COLUMNS -->
+
+
+<!-- START FOUR COLUMNS -->
+
+<!-- END FOUR COLUMNS -->
+
+
+<!-- START FOOTER -->
+
+<!-- END FOOTER -->
+
+
+         </table>
+
+         <!--[if mso]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+      
+      </div>
+   </div>
+
+</body>
+</html>
+
+
+<!--
+IMGBB, MailChimp & GitHub Course Project Images
+
+Facebook Icon:
+https://i.ibb.co/5cp6Gtb/facebook.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/a14ef44e-fdb2-3a1c-28f4-c1e1043e407a.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/facebook.png
+
+Twitter X Icon:
+https://i.ibb.co/9t8P92t/twitterx.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/55204969-d9cc-9dc9-d3c9-81bec7429833.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/twitterx.png
+
+Black Twitter X Icon:
+https://i.ibb.co/BV3ktgn/x-circle.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/e9c79cbe-de10-a5af-184e-7503a19a63fb.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/x-circle.png
+
+YouTube Icon:
+https://i.ibb.co/Ttf0YmH/youtube.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/b24e2cfa-e8a2-999a-67d9-5f073f94c3cc.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/youtube.png
+
+Linkedin Icon:
+https://i.ibb.co/3zn6mW3/linkedin.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/e3fe30fa-46b2-6bc6-2630-d5f7f07f46ec.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/linkedin.png
+
+Instagram Icon:
+https://i.ibb.co/8brZJJt/instagram.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/b1325253-f1ec-befd-a7f0-9e9413eb8793.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/instagram.png
+
+Dark Logo:
+https://i.ibb.co/rx31TX7/html-email.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/f24fc6ce-1705-ef8d-2f5e-f4c029d4b197.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/html-email.png
+
+Dark Logo with Border:
+https://i.ibb.co/s1nxLv6/html-email-border.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/819c4179-e2d4-dea4-110f-e1b527530029.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/html-email-border.png
+https://i.ibb.co/4s64mcv/html-email-border-2.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/f97d943e-28df-bd5c-4e8a-357db0348271.png
+
+Banner Image:
+https://i.ibb.co/k4pFTrR/banner.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/252d4b47-c12b-109e-e2a3-d34580614528.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/banner.jpg
+
+Banner GIF:
+https://i.ibb.co/hMhVbjT/stats2.gif
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/9cc2d79c-092b-91cf-d99a-cd05a99415fd.gif
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/stats2.gif
+
+Man Teal:
+https://i.ibb.co/Tmg3qbV/man-teal.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/13008246-aff8-2851-c750-370e382db263.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/man-teal.jpg
+
+Woman Teal:
+https://i.ibb.co/nQn29Sg/woman-teal.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/34393af4-503d-d5e0-4861-74f4fdcaf65e.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/woman-teal.jpg
+
+Woman Teal Circle:
+https://i.ibb.co/j852yw3/teal-circle.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/10ae33ec-8d1f-e539-f04e-84166c15e74f.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/teal-circle.png
+
+Red Newsletter:
+https://i.ibb.co/TRwJYjq/newsletter.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/30dfd342-60ab-6693-0372-f65c6d1311ad.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/newsletter.jpg
+
+Yellow E-commerce:
+https://i.ibb.co/F8Rmvcz/ecommerce.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/70804ea0-bbf8-b16e-1ff3-5b2563ebe6a5.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/ecommerce.jpg
+
+Teal/Blue Blogging:
+https://i.ibb.co/NymGnBV/blogging.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/0e95f758-d444-f22f-d475-4dde0da6d2a6.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/blogging.jpg
+
+Gmail:
+https://i.ibb.co/P9pBr14/gmail.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/9532d872-1d92-78d5-5e51-3db12b47a802.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/gmail.jpg
+
+iCloud:
+https://i.ibb.co/JqGbVxD/icloud.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/595ae7c9-c54d-1045-69ac-136779667c60.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/icloud.jpg
+
+Outlook:
+https://i.ibb.co/5KpjqYR/outlook.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/216cbb23-6c53-b747-c30b-2ef6d15c5b9d.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/outlook.jpg
+
+Yahoo:
+https://i.ibb.co/8cpzpW0/yahoo.jpg
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/ff10ce83-13fb-011b-eaa4-1ca0913a4666.jpg
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/yahoo.jpg
+
+Light Footer Logo:
+https://i.ibb.co/rdjLnjG/html-email-white.png
+https://mcusercontent.com/474f5b70c3b324277323d4c42/images/545fc2c7-d9b0-e5f7-2f96-84fb742a5a1a.png
+https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/course-project/html-email-white.png
+-->
